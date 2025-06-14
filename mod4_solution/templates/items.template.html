@@ -1,0 +1,10 @@
+<div class="container">
+  <a ui-sref="categories">Back to Categories</a>
+  <h2>Items for category:</h2>
+  <ul>
+    <li ng-repeat="item in $ctrl.items">
+      <strong>{{ item.name }}</strong><br>
+      <em>{{ item.description }}</em>
+    </li>
+  </ul>
+</div>
